@@ -1,0 +1,228 @@
+body { 
+    color: #333333; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+} 
+
+header {    position: relative; }
+
+.img-logo {
+    width: 25%;
+    height: 10%;
+}
+
+img {
+    width: 25%;
+    height: 10%;
+}
+
+.container { 
+    margin: 0 auto; 
+    width: 940px; 
+} 
+
+.menu-opcoes { 
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+}
+
+.menu-opcoes ul {     font-size: 15px; } 
+
+.menu-opcoes ul li { 
+    display: inline; 
+    margin-left: 20px; 
+}
+
+.menu-opcoes a {     color: #003366; } 
+
+.carrinho { 
+    background: url(../img/carrinho.png) no-repeat top right; 
+    font-size: 14px; 
+    padding-right: 50px; 
+    text-align: right; 
+    width: 140px;
+    padding-top: 8px; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    background-size: contain;
+}
+
+.busca, 
+.menu-conteudo {
+    background-color: #dcdcdc; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px; 
+    float: left; 
+}
+
+.busca h2, 
+.busca form, 
+.menu-conteudo h2 {    margin: 10px;}
+
+.menu-conteudo li {
+    background-color: white; 
+    margin-bottom: 1px; 
+    padding: 5px 10px;
+}
+
+.menu-conteudo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-conteudo { 
+    clear: left; 
+    margin-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.busca input {      vertical-align: middle;}
+
+.busca input[type=search] {     width: 170px;}
+
+.busca { 
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px; 
+} 
+
+.destaque {     margin-top: 10px; position: relative;} 
+
+.lupa{
+    width:10%;
+    height: 10%;
+}
+
+.painel { 
+    margin: 10px 0; 
+    padding: 10px; 
+    width: 60%; 
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999; 
+}
+
+.aula1 { 
+    float: left; 
+    background-color: #f5dcdc;  
+    box-shadow: inset 1px 1px 4px #999;
+    background: linear-gradient(#f5dcdc, #bebef4);
+
+}
+
+.aula2 { 
+    float: right; 
+    background-color: #dcdcf5;
+    box-shadow: inset 1px 1px 4px #999;
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+.painel li { 
+    display: inline-block; 
+    vertical-align: top; 
+    width: 140px; 
+    margin: 2px; 
+    padding-bottom: 10px; 
+}
+
+.painel li:hover { 
+    box-shadow: 0 0 5px #333; 
+    transition: box-shadow 0.7s;
+    background-color: rgba(255,255,255,0.8); 
+    box-shadow: 0 0 5px #333; 
+    transition: 0.7s; 
+    transform: scale(1.2) rotate(-5deg); 
+ } 
+
+.painel h2 { 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    margin-bottom: 10px; 
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8); 
+} 
+
+.painel a { color: #333;
+    font-size: 14px;
+    text-align: center; 
+    text-decoration: none; 
+} 
+
+footer {    background-image: url(../img/fundo-rodape.png);
+    background-size: 50%;
+    clear: both;
+    padding: 20px 0;
+}
+.social a {    /* tamanho da imagem */
+    height: 32px;
+    width: 32px;
+    /* image replacement */
+    display: block;
+    text-indent: -9999px;
+}
+.social a[href*="facebook.com"] {    background-image: url(../img/face.png);
+    background-size: contain;
+}
+.social a[href*="twitter.com"] {    background-image: url(../img/twitter.png);
+    background-size: contain;
+}
+.social a[href*="plus.google.com"] {    background-image: url(../img/google.png);
+    background-size: contain;
+}   
+footer .container {    position: relative;}
+
+.social {    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.social li {    float: left;
+    margin-left: 25px;
+}
+.img-footer{    height: 50px;
+    width: 50px;
+}
+
+.pause,
+.play {
+display: block;
+position: absolute;
+right: 15px;
+top: 15px;
+}
+
+.pause {
+border-left: 10px solid #900;
+border-right: 10px solid #900;
+height: 30px;
+width: 5px;
+
+}
+
+.play {
+border-left: 25px solid #900;
+border-bottom: 15px solid transparent;
+border-top: 15px solid transparent;
+}
+
+.menu-opcoes a:hover { 
+    color: #c6006d;
+} 
+
+.menu-opcoes a:active {
+     color: #867dc6; 
+}
+
+.menu-conteudo li ul {
+    display: none; /*por padrão escondida*/
+} 
+
+.menu-conteudo li:hover ul {
+   display: block; /*no mouse aparece*/
+} 
+
+.menu-conteudo ul ul li {
+    background-color: #dcdcdc;
+} 
+   
+    
